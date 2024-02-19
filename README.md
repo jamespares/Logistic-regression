@@ -22,7 +22,8 @@ Features are scaled using preprocessing.scale(X) for improved model fitting.
 **Data Splitting:**
 
 Data is divided into training (75%) and testing (25%) sets using train_test_split() for model training and evaluation.
-Model Training:
+
+**Model Training:**
 
 A logistic regression model is instantiated using sklearn.linear_model.LogisticRegression().
 The model is fit to the training data to learn the relationship between features and species.
